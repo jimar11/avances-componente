@@ -1,0 +1,24 @@
+Revisión de coherencia entre los diagramas
+8.1. Correspondencia de los modelos
+Los tres diagramas se relacionan mediante el caso de uso «Solicitar viaje». El diagrama de casos de uso presenta el contexto funcional, mientras que los diagramas de comunicación y secuencia desarrollan el fragmento comprendido entre la confirmación de la solicitud y la comunicación de la asignación.
+Criterio revisado	Resultado de la comparación
+Caso de estudio	Los tres modelos corresponden al sistema MoviGo.
+Actores del escenario	Pasajero y conductor mantienen sus funciones en las tres representaciones.
+Participación de MoviGo	En casos de uso se representa mediante el límite del sistema; en comunicación y secuencia aparece como participante de la interacción.
+Inicio del fragmento	Ambos diagramas de interacción comienzan con la confirmación de la solicitud.
+Mensajes	Comunicación y secuencia conservan cinco mensajes equivalentes.
+Orden de las acciones	La búsqueda precede al envío de la solicitud y la aceptación precede a la confirmación de la asignación.
+Registro de la asignación	Se documenta como efecto interno posterior a la aceptación y anterior al mensaje final.
+Actores externos ausentes	Su ausencia en el fragmento se justifica por el alcance seleccionado.
+Funcionalidades adicionales	No se incorporan registro de cuentas ni inicio de sesión.
+8.2. Ajuste documental identificado
+En el escenario principal de la primera práctica, la presentación de los datos del conductor aparece antes del registro del viaje como asignado. En la segunda práctica se establece que MoviGo registra la asignación antes de enviar la confirmación al pasajero.
+Para mantener una sola descripción del comportamiento, la versión integrada adopta el siguiente orden: el conductor acepta la solicitud, MoviGo registra la asignación y, finalmente, confirma el resultado y muestra los datos al pasajero. Este ajuste armoniza la documentación sin añadir una funcionalidad nueva.
+8.3. Resultado de la revisión
+La comparación permite establecer una correspondencia entre las funcionalidades generales y el escenario de interacción seleccionado. Los diagramas de comunicación y secuencia describen el mismo comportamiento con distintos énfasis: el primero destaca las conexiones y el segundo facilita seguir el orden de los mensajes.
+Antes de incorporar las figuras definitivas al documento y al repositorio, debe comprobarse su legibilidad. En particular, conviene corregir los rótulos recortados del diagrama de casos de uso y revisar el borde derecho del encabezado «Conductor» en el diagrama de secuencia. Estos ajustes de presentación permitirán conservar el contenido y facilitar su lectura.
+
+
+Arreglo del trabajo.
+
+El arreglo del fue casi del 50% ya que algunos cuadros o conceptos no estaban completos o casi sin coherencia en lo argumentado del trabajo elaborado.
